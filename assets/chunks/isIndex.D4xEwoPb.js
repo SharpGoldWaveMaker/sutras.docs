@@ -1,1 +1,0 @@
-function f(r,n){return r===n||r!==r&&n!==n}var s=9007199254740991,t=/^(?:0|[1-9]\d*)$/;function o(r,n){var i=typeof r;return n=n??s,!!n&&(i=="number"||i!="symbol"&&t.test(r))&&r>-1&&r%1==0&&r<n}export{f as eq,o as isIndex};
